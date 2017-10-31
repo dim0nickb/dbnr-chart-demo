@@ -1,0 +1,166 @@
+
+
+<div class="logo">
+  <a href="http://atechnology.ru/" class="logo-text">
+
+    <div class="logo-img">
+      <img src="source/angular_atlogo.png"/>
+    </div>
+
+    winDraw.Online
+  </a>
+</div>
+<div class="logo logo-mini">
+  <a href="http://atechnology.ru/" class="logo-text">
+    WD
+  </a>
+</div>
+
+<div class="sidebar-wrapper">
+
+  <ul class="nav">
+
+    <li routerLinkActive="active">
+      <a  [routerLink]="[menuItems[0].path]">
+        <i class="{{menuItems[0].icon}}"></i>
+        <p>{{menuItems[0].title}}</p>
+      </a>
+    </li>
+
+    <li routerLinkActive="active">
+      <a  [routerLink]="[menuItems[1].path]">
+        <i class="{{menuItems[1].icon}}"></i>
+        <span class="notification">5</span>
+        <p>{{menuItems[1].title}}</p>
+      </a>
+    </li>
+    <li routerLinkActive="active">
+      <a  [routerLink]="[menuItems[17].path]">
+        <i class="{{menuItems[17].icon}}"></i>
+        <p>{{menuItems[17].title}}</p>
+      </a>
+    </li>
+
+    <li routerLinkActive="active">
+      <a data-toggle="collapse" href="#documents">
+        <i class="pe-7s-notebook"></i>
+        <p>Документы
+          <b class="caret"></b>
+        </p>
+      </a>
+      <div class="collapse" id="documents">
+        <ul class="nav">
+          <li routerLinkActive="active">
+            <a  [routerLink]="[menuItems[3].path]">
+
+              {{menuItems[3].title}}
+            </a>
+          </li>
+          <li routerLinkActive="active">
+            <a  [routerLink]="[menuItems[4].path]">
+
+              {{menuItems[4].title}}
+            </a>
+          </li>
+          <li routerLinkActive="active">
+            <a  [routerLink]="[menuItems[5].path]">
+
+              {{menuItems[5].title}}
+            </a>
+          </li>
+          <li routerLinkActive="active">
+            <a  [routerLink]="[menuItems[6].path]">
+
+              {{menuItems[6].title}}
+            </a>
+          </li>
+          <li routerLinkActive="active">
+            <a  [routerLink]="[menuItems[7].path]">
+
+              {{menuItems[7].title}}
+            </a>
+          </li>
+          <li routerLinkActive="active">
+            <a  [routerLink]="[menuItems[8].path]">
+
+              {{menuItems[8].title}}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li routerLinkActive="active">
+      <a data-toggle="collapse" href="#tasks">
+        <i class="pe-7s-note2"></i>
+        <p>Задачи
+          <b class="caret"></b>
+        </p>
+      </a>
+      <div class="collapse" id="tasks">
+        <ul class="nav">
+          <li routerLinkActive="active">
+            <a  [routerLink]="[menuItems[9].path]" style="vertical-align: bottom">
+
+              {{menuItems[9].title}}
+            </a>
+          </li>
+          <li routerLinkActive="active">
+            <a  [routerLink]="[menuItems[23].path]">
+
+              {{menuItems[23].title}}
+            </a>
+          </li>
+          <li routerLinkActive="active">
+            <a  [routerLink]="[menuItems[10].path]">
+
+              {{menuItems[10].title}}
+            </a>
+          </li>
+          <li routerLinkActive="active">
+            <a  [routerLink]="[menuItems[18].path]">
+
+              {{menuItems[18].title}}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li routerLinkActive="active">
+      <a  [routerLink]="[menuItems[11].path]">
+        <i class="{{menuItems[11].icon}}"></i>
+        <p>{{menuItems[11].title}}</p>
+      </a>
+    </li>
+
+    <li routerLinkActive="active">
+      <a  [routerLink]="[menuItems[19].path]">
+        <i class="{{menuItems[19].icon}}"></i>
+        <p>{{menuItems[19].title}}</p>
+      </a>
+    </li>
+
+    <li routerLinkActive="active">
+      <a  [routerLink]="[menuItems[20].path]">
+        <i class="{{menuItems[20].icon}}"></i>
+        <p>{{menuItems[20].title}}</p>
+      </a>
+    </li>
+
+    <li routerLinkActive="active">
+      <a  [routerLink]="[menuItems[21].path]">
+        <i class="{{menuItems[21].icon}}"></i>
+        <p>{{menuItems[21].title}}</p>
+      </a>
+    </li>
+
+    <li routerLinkActive="active">
+      <a  [routerLink]="[menuItems[22].path]">
+        <i class="{{menuItems[22].icon}}"></i>
+        <p>{{menuItems[22].title}}</p>
+      </a>
+    </li>
+
+  </ul>
+</div>

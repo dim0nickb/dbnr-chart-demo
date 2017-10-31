@@ -1,0 +1,138 @@
+#minimizeSidebar{
+  background:#447DF7;
+  border:#447DF7;
+}
+
+.paging_full_numbers span.paginate_button {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight:normal;
+}
+
+.paging_full_numbers span.paginate_button:hover {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight:normal;
+}
+
+.paging_full_numbers span.paginate_active {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight:normal;
+}
+
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+.at-table {
+  border-spacing: 0;
+  border: 1px solid;
+  border-radius: 3px;
+}
+.at-table td, .at-table th {
+  border-left: 1px solid;
+  border-top: 1px solid;
+}
+.at-table th {
+  background: #fff5d7;
+  border-top: none;
+}
+.at-table td:first-child, .at-table th:first-child {
+  border-left: none;
+}
+
+/* из-за background */
+
+.at-table th:first-child {
+  border-top-left-radius: 3px;
+}
+.at-table th:last-child {
+  border-top-right-radius: 3px;
+}
+
+.card .content {
+  padding: 15px;
+}
+
+#loader {
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+  -o-transform: translate3d(0, -50%, 0);
+  -ms-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  text-align: center;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  top: 50%;
+}
+
+.menu-item {
+  margin-bottom: 8px;
+}
+
+.btn {
+  margin-bottom: 4px;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 1px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #333333;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.accordion-item {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.accordion-panel {
+  margin-top: 0px !important;
+}
+
+.accordion-panel-heading {
+  background-color: #ffffff !important;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.find-input {
+  background-color: #f8f8f8 !important;
+}
+
+.find-button {
+  background-color: #f8f8f8 !important;
+  border-color: #f8f8f8 !important;
+}
+
+.notpodcherk {
+  text-decoration: none !important;
+}
+
+.notpodcherk:hover {
+  text-decoration: none !important;
+}
+
+.fr-box > div:nth-child(4) {
+  display: none !important;
+}
